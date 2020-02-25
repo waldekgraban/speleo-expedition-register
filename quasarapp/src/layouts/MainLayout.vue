@@ -9,7 +9,7 @@
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
           </q-avatar>
-          Title
+          speleo-expedition-register
         </q-toolbar-title>
       </q-toolbar>
 
