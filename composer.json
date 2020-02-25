@@ -1,10 +1,10 @@
 {
-    "name": "laravel/laravel",
+    "name": "waldekgraban/speleo-expedition-register",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "WIP",
     "keywords": [
-        "framework",
-        "laravel"
+        "speleo",
+        "cave"
     ],
     "license": "MIT",
     "require": {

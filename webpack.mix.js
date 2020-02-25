@@ -18,10 +18,10 @@ mix.js('resources/js/app.js', 'public/js')
 mix.copy('resources/', 'public/assets');
 
 if (yn(process.env.MIX_BROWSERSYNC_ENABLED)) {
-    const target = process.env.MIX_BROWSERSYNC_TARGET || 'localhost:8001';
+    const target = process.env.MIX_BROWSERSYNC_TARGET || 'localhost:8000';
 
     const host = process.env.MIX_BROWSERSYNC_HOST || 'localhost';
-    const port = process.env.MIX_BROWSERSYNC_PORT || 3001;
+    const port = process.env.MIX_BROWSERSYNC_PORT || 3000;
 
     let config = {
         host: host,
@@ -41,7 +41,7 @@ if (yn(process.env.MIX_BROWSERSYNC_ENABLED)) {
         config.files = [
             'app/**/*.php',
             'resources/views/**/*.php',
-            'resources/assets/js/components/**/*.vue',
+            'resources/js/components/**/*.vue',
             'public/js/**/*.js',
             'public/css/**/*.css',
         ];
