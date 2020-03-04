@@ -27,9 +27,9 @@
                 <div class="links">
                     <a href="">Maps</a>
                     <a href="">Expeditions</a>
-                    <a href="">Team</a>
-                    <a href="">Raports</a>
-                    <a href="">Warehouse</a>
+                    <a href="">Teams</a>
+                    <a href="">Reports</a>
+                    <a href="">Equipment</a>
                 </div>
             </div>
         </div>
